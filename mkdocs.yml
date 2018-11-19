@@ -1,0 +1,6 @@
+site_name: DigiSim
+nav:
+    - Home: index.md
+    - Functions: func.md
+    - About: about.md
+theme: readthedocs
