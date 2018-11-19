@@ -1,6 +1,8 @@
-# Welcome to digisim!
+# Welcome to DigiSim!
 
-For full python code visit [https://github.com/khanstark/digisim](https://github.com/khanstark/digisim).
+A python library for digital logic simulations minimalistically!
+
+For full python code visit [https://github.com/khanstark/DigiSim](https://github.com/khanstark/DigiSim).
 
 ## Prerequisites
 
