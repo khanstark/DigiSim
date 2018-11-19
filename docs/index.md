@@ -23,9 +23,5 @@ Currently we only have support for python 2.x. Use one of the following commands
 * `sudo pip install digisim` - Try giving sudo access.
 * `pip2 install digisim` - Try this in case above commands return error.
 
-## Project layout
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+To explore digisim, click [this](func.md).
