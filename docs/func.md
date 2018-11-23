@@ -131,4 +131,48 @@ Sequence Value at cycle 3 :  011
 ```
 
 
+Similarly, for asynchronous sequential circuits-
+
+```
+
+>>> from digisim.sequential import FlipFlop_async
+>>> FlipFlop_async(3,3)  # 3 flip-flops to be used, and 3 cycles need to iterated
+
+('The flipflop names are: ', ['f1', 'f2', 'f3'], 'and its complements are: ', ['F1', 'F2', 'F3'])
+['f1', 'f2', 'f3', 'F1', 'F2', 'F3', '+', '.']
+FlipFlop No 1 : 
+Enter the choice for type of flipflop as 
+1.T-FlipFlop
+2.D-FlipFlop
+3.J-K FlipFlop
+Enter it here:  1
+Enter initial value in 0 or 1: 1
+Enter clock equationf1
+Enter the equation: f1
+FlipFlop No 2 : 
+Enter the choice for type of flipflop as 
+1.T-FlipFlop
+2.D-FlipFlop
+3.J-K FlipFlop
+Enter it here:  2
+Enter initial value in 0 or 1: 0
+Enter clock equationf2
+Enter the equation: f1
+FlipFlop No 3 : 
+Enter the choice for type of flipflop as 
+1.T-FlipFlop
+2.D-FlipFlop
+3.J-K FlipFlop
+Enter it here:  2
+Enter initial value in 0 or 1: 1
+Enter clock equationf1
+Enter the equation: f3
+
+sequence:  101 --> 001 --> 001
+Sequence Value at cycle 3 :  001
+
+
+```
+
+
 
