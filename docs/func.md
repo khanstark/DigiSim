@@ -29,7 +29,7 @@ To get your test cases for the expression, use following lines of code-
 ```
 
 >>> from digisim.generate import testcases
->>> expr='a+ab'
+>>> expr='a+a.b'    # remember to add '.' for AND operation while using this function 
 >>> testcases(expr) # prints all valid input-output combinations on the terminal.
 
 ```
@@ -39,7 +39,7 @@ To get a **specific output** of a given input for the expression, use following 
 ```
 
 >>> from digisim.generate import testcases
->>> expr='a+ab'
+>>> expr='a+a.b'    # remember to add '.' for AND operation while using this function
 >>> out=testcases(expr,{'a':'1','b':'0'}) # dict contains values of a and b.
 >>> print (out)
 
